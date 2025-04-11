@@ -3,7 +3,7 @@
 //   enabled: process.env.ANALYZE === 'true',
 // });
 
-const repo = 'GuesthouseWebsite';
+const repo = 'GuestHouseWebsite';
 
 /** @type {import('next').NextConfig} */
 module.exports = {
