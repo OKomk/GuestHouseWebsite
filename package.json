@@ -12,7 +12,9 @@
     "lint": "next lint",
     "build-types": "tsc --noEmit --pretty",
     "prepare": "husky install",
-    "deploy": "next build && touch out/.nojekyll && git add out/ && git commit -m \"Deploy to gh-pages\" && git subtree push --prefix out origin gh-pages"
+    "deploy": "next build && touch out/.nojekyll && git add out/ && git commit -m \"Deploy to gh-pages\" && git subtree push --prefix out origin gh-pages",
+    "build-legacy": "export NODE_OPTIONS=--openssl-legacy-provider && next build",
+    "deploy-legacy": "export NODE_OPTIONS=--openssl-legacy-provider && yarn deploy"
   },
   "dependencies": {
     "@headlessui/react": "^1.4.1",
