@@ -11,7 +11,8 @@
     "clean": "rimraf .next out",
     "lint": "next lint",
     "build-types": "tsc --noEmit --pretty",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "deploy": "next build && touch out/.nojekyll && git add out/ && git commit -m \"Deploy to gh-pages\" && git subtree push --prefix out origin gh-pages"
   },
   "dependencies": {
     "@headlessui/react": "^1.4.1",

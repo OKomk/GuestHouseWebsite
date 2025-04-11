@@ -3,6 +3,8 @@
 //   enabled: process.env.ANALYZE === 'true',
 // });
 
+const repo = 'GuesthouseWebsite';
+
 /** @type {import('next').NextConfig} */
 module.exports = {
   output: 'export',
@@ -13,7 +15,8 @@ module.exports = {
     ignoreDuringBuilds: true,
   },
   trailingSlash: true,
-  basePath: '',
+  basePath: process.env.NODE_ENV === 'production' ? `/${repo}` : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? `/${repo}/` : '',
   // The starter code load resources from `public` folder with `router.basePath` in React components.
   // So, the source code is "basePath-ready".
   // You can remove `basePath` if you don't need it.
