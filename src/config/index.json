@@ -1,0 +1,164 @@
+{
+  "company": {
+    "name": "Shree Ram Guest House",
+    "logo": "https://cdn-icons-png.flaticon.com/512/2534/2534063.png"
+  },
+  "navigation": [
+    {
+      "name": "Accommodations",
+      "href": "product"
+    },
+    {
+      "name": "Amenities",
+      "href": "features"
+    },
+    {
+      "name": "Rates",
+      "href": "pricing"
+    },
+    {
+      "name": "About",
+      "href": "about"
+    },
+    {
+      "name": "Contact",
+      "href": "contact"
+    }
+  ],
+  "callToAction": {
+    "text": "Book Now",
+    "href": "#"
+  },
+  "mainHero": {
+    "title": "Welcome to",
+    "subtitle": "Shree Ram Guest House.",
+    "description": "Established in 2015, Shree Ram Guest House offers comfortable and affordable accommodation perfectly situated near Nashik Road station. Our convenient location and warm hospitality make us the ideal choice for travelers looking for a pleasant stay in Nashik.",
+    "img": "/assets/images/main.jpg",
+    "primaryAction": {
+      "text": "Book Now",
+      "href": "#"
+    },
+    "secondaryAction": {
+      "text": "Contact Us",
+      "href": "contact"
+    }
+  },
+  "product": {
+    "title": "Our Accommodations",
+    "items": [
+      {
+        "title": "Comfortable Rooms",
+        "description": "Enjoy our well-maintained, clean, and comfortable rooms designed to provide you with a relaxing stay. All rooms come with essential amenities to ensure your comfort throughout your stay.",
+        "img": "/assets/images/room1.jpg"
+      },
+      {
+        "title": "Prime Location",
+        "description": "Located at Rajendra Apartment, Scheme No 1, Shastri Path, Nashik Road, we are just minutes away from Nashik Road station, making us the perfect choice for travelers arriving by train.",
+        "img": "/assets/images/room2.jpg"
+      }
+    ]
+  },
+  "features": {
+    "title": "Our Amenities",
+    "subtitle": "Making your stay comfortable",
+    "description": "At Shree Ram Guest House, we strive to provide all the essential amenities to make your stay comfortable and enjoyable. Our attentive staff is always ready to assist you with any requirements during your stay.",
+    "items": [
+      {
+        "name": "24/7 Reception",
+        "description": "Our front desk is available round the clock to assist you with check-in, check-out, and any other requirements during your stay.",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2942/2942076.png"
+      },
+      {
+        "name": "Free Wi-Fi",
+        "description": "Stay connected with complimentary high-speed internet access available throughout the property.",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2099/2099174.png"
+      },
+      {
+        "name": "Room Service",
+        "description": "Enjoy delicious meals delivered right to your room with our convenient room service option.",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2302/2302566.png"
+      },
+      {
+        "name": "Hot Water",
+        "description": "All rooms are equipped with hot water facilities to ensure your comfort regardless of the season.",
+        "icon": "https://cdn-icons-png.flaticon.com/512/1752/1752784.png"
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Room Rates",
+    "items": [
+      {
+        "name": "Standard Room",
+        "price": "₹999",
+        "priceDetails": "per night",
+        "features": ["Single bed", "Air conditioning", "Private bathroom", "TV"]
+      },
+      {
+        "name": "Deluxe Room",
+        "price": "₹1,499",
+        "priceDetails": "per night",
+        "features": [
+          "Double bed",
+          "Air conditioning",
+          "Private bathroom",
+          "TV and mini-fridge"
+        ]
+      },
+      {
+        "name": "Family Suite",
+        "price": "₹1,999",
+        "priceDetails": "per night",
+        "features": [
+          "Multiple beds",
+          "Air conditioning",
+          "Spacious room",
+          "Premium amenities"
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Have questions or need to make a reservation? Reach out to us directly.",
+    "phone": {
+      "number": "+91 9422262974",
+      "display": "+91 9422262974",
+      "description": "Available 24/7 for bookings and inquiries"
+    },
+    "email": {
+      "address": "info@shreeramguesthouse.com",
+      "display": "info@shreeramguesthouse.com",
+      "description": "We'll respond as soon as possible"
+    }
+  },
+  "about": {
+    "sections": [
+      {
+        "name": "Our Story",
+        "href": "#",
+        "content": "Established in 2015, Shree Ram Guest House has been providing quality accommodation to travelers visiting Nashik. We take pride in our warm hospitality and commitment to guest satisfaction."
+      },
+      {
+        "name": "Location",
+        "href": "#",
+        "content": "We are located at Rajendra Apartment, Scheme No 1, Shastri Path, Nashik Road, Nashik - 422101 (Near Badshah Cold Drinks). Our prime location near Nashik Road station makes us an ideal choice for travelers."
+      },
+      {
+        "name": "Our Promise",
+        "href": "#",
+        "content": "We are committed to providing a clean, comfortable, and safe environment for all our guests. Our dedicated staff works tirelessly to ensure that your stay with us is pleasant and memorable."
+      },
+      {
+        "name": "Nearby Attractions",
+        "href": "#",
+        "content": "Being centrally located, we are close to many attractions in Nashik. Our staff will be happy to guide you on the best places to visit during your stay with us."
+      }
+    ],
+    "socialMedia": {
+      "github": "#",
+      "twitter": "#",
+      "linkedin": "#"
+    }
+  }
+}
